@@ -3,9 +3,9 @@
 # Perl module to control Edimax IC1500-series network cameras
 # (c) 2008, 2009 Andy Smith
 #--------------------------------------------------------------
-# $Id: IC1500.pm 6 2009-04-24 18:21:58Z andys $
+# $Id: IC1500.pm 8 2009-04-24 18:34:18Z andys $
 #--------------------------------------------------------------
-# 'perldoc IC1500.pm' for documentation
+# See 'perldoc IC1500.pm' for documentation
 #--------------------------------------------------------------
 
 package Net::Camera::Edimax::IC1500;
@@ -37,7 +37,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = sprintf "1.%03d", q$Id: IC1500.pm 6 2009-04-24 18:21:58Z andys $ =~ /: .+ (\d+) \d+-/;
+our $VERSION = sprintf "1.%03d", q$Id: IC1500.pm 8 2009-04-24 18:34:18Z andys $ =~ /: .+ (\d+) \d+-/;
 
 # Preloaded methods go here.
 
